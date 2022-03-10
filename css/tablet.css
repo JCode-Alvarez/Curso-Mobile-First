@@ -1,0 +1,16 @@
+/* MODELO PARA TABLET
+	medidas de: (768x1024px)
+desde 900px se aplicaran los cambios */
+@media (min-width: 900px) {
+	.product-cards-container {
+		width: 900px;
+		margin: 0 auto;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.planes__cards {
+		width: 90%;
+	}
+}
